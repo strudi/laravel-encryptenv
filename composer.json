@@ -1,5 +1,5 @@
 {
-    "name": "mrgswift/laravel-encryptenv",
+    "name": "strudi/laravel-encryptenv",
     "type": "library",
     "description": "Laravel Environment Variable Encryption",
     "keywords": [
