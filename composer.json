@@ -1,5 +1,5 @@
 {
-    "name": "strudi/laravel-encryptenv",
+    "name": "mrgswift/laravel-encryptenv",
     "type": "library",
     "description": "Laravel Environment Variable Encryption",
     "keywords": [
@@ -8,7 +8,7 @@
     ],
     "minimum-stability": "dev",
     "prefer-stable": true,
-    "homepage": "https://github.com/strudi/laravel-encryptenv",
+    "homepage": "https://github.com/mrgswift/laravel-encryptenv",
     "license": "MIT",
     "authors": [
         {
