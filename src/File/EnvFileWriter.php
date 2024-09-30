@@ -53,9 +53,9 @@ class EnvFileWriter
                     $varname = substr($envline, 0, ($chkstrpos - 1));
                     $envline = str_replace($varname.'=','', $envline);
                     //Get existing value from line
-                    $fileval = substr($envline, strlen($this->payload->getFlag()));
+                    $fileval = substr($envline,$chkstrpos + strlen($this->payload->getFlag()));
                     //Encrypt existing value
-                    $env_val = $varname . '=ENC:' . $encrypter->encrypt($fileval);
+                    $env_val = $varname . 'ENC:' . $encrypter->encrypt($fileval);
                 }
                 //Write line to tmp file
                 fputs($tmpfile, $env_val . $lbreak);
